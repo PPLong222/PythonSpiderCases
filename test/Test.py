@@ -2,6 +2,14 @@ import json
 import re
 from lxml import etree
 import requests
-str = '1961(中国大陆) / 1964(中国大陆) / 1978(中国大陆) / 中国大陆 / 剧情 动画 奇幻 古装'
-res = re.search(r'123',str)
-print(res)
+from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+#!/usr/bin/env python
+# coding:utf-8
+
+import requests
+
+resp = requests.get('http://www.dmh8.com/search.asp?searchword=1&submit=')
+print(resp.text)

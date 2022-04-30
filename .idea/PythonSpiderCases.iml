@@ -3,6 +3,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/spiders/yinghua_video_spider/dec_m3u8" />
+      <excludeFolder url="file://$MODULE_DIR$/spiders/yinghua_video_spider/raw_m3u8" />
+      <excludeFolder url="file://$MODULE_DIR$/spiders/yinghua_video_spider/m3u8_index" />
+      <excludeFolder url="file://$MODULE_DIR$/spiders/yinghua_video_spider/videos" />
+      <excludeFolder url="file://$MODULE_DIR$/spiders/yinghua_video_spider/screenshot" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
